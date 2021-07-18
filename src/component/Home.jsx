@@ -4,7 +4,7 @@ import { FiLinkedin, FiGithub, FiTwitter } from "react-icons/fi";
 
 function Home() {
     return (
-        <section className="home section">
+        <div className="home section">
             <div className="home__container container grid">
                 <div className="home__content grid">
                     <div className="home__social">
@@ -33,7 +33,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

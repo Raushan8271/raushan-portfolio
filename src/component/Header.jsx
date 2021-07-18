@@ -10,22 +10,35 @@ function Header() {
     const handleShowDiv = () => {
         showDiv.current.style.bottom = 0
     }
-    const handleHideDiv = () => {
+    const handleHideDiv = (e) => {
+        e.preventDefault()
+        const target = e.target.getAttribute('href')
+        console.log(target)
+
+        const location = document.querySelector(target).offsetTop
+
+        console.log(location)
+
+        window.scrollTo({
+            left: 0,
+            top: location
+        })
+
         showDiv.current.style.bottom = "-100%"
     }
     return (
         <header className="header">
             <nav className="nav container">
-                <Link to={"/"} className="nav__logo" >
+                <a href="#home" className="nav__logo" onClick={handleHideDiv} >
                     Raushan Kumar
-                </Link>
+                </a>
                 <div ref={showDiv} className="nav__menu">
                     <ul className="nav__list grid">
                         <li className="nav__item">
-                            <Link to={"/"} className="nav__link" onClick={handleHideDiv}>
+                            <a href="#home" className="nav__link" onClick={handleHideDiv}>
                                 <FcHome className="nav__icon" size={"1.2rem"} />
                                 Home
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav__item">
                             <Link to={"/about"} className="nav__link" onClick={handleHideDiv}>
@@ -46,10 +59,10 @@ function Header() {
                             </Link>
                         </li>
                         <li className="nav__item">
-                            <Link to={"/contact"} className="nav__link" onClick={handleHideDiv} >
+                            <a href="#contact" className="nav__link" onClick={handleHideDiv} >
                                 <FcBusinessContact className="nav__icon" size={"1.2rem"} />
                                 Contact
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav__item">
                             <a href={Resume} className="nav__link" download rel="noreferrer" target="_blank">
