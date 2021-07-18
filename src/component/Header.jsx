@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-import { Link } from 'react-router-dom'
 import { FaTimes } from "react-icons/fa";
 import { AiOutlineAppstore } from "react-icons/ai";
 import { FcHome, FcAbout, FcDownload, FcMindMap, FcBusinessContact, FcWorkflow } from "react-icons/fc";
@@ -21,7 +20,7 @@ function Header() {
 
         window.scrollTo({
             left: 0,
-            top: location
+            top: location - 50
         })
 
         showDiv.current.style.bottom = "-100%"
@@ -41,22 +40,22 @@ function Header() {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <Link to={"/about"} className="nav__link" onClick={handleHideDiv}>
+                            <a href="#about" className="nav__link" onClick={handleHideDiv}>
                                 <FcAbout className="nav__icon" size={"1.2rem"} />
                                 About me
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav__item">
-                            <Link to={"/skills"} className="nav__link" onClick={handleHideDiv}>
+                            <a href="#skills" className="nav__link" onClick={handleHideDiv}>
                                 <FcMindMap className="nav__icon" size={"1.2rem"} />
                                 Skills
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav__item">
-                            <Link to={"/project"} className="nav__link" onClick={handleHideDiv}>
+                            <a href="#project" className="nav__link" onClick={handleHideDiv}>
                                 <FcWorkflow className="nav__icon" size={"1.2rem"} />
                                 Project
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav__item">
                             <a href="#contact" className="nav__link" onClick={handleHideDiv} >

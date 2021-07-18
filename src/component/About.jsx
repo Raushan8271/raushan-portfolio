@@ -2,9 +2,9 @@ import React from 'react'
 
 function About() {
     return (
-        <section>
+        <div className="about">
             <h2>About Me</h2>
-        </section>
+        </div>
     )
 }
 
