@@ -10,14 +10,14 @@ function Header() {
     const handleShowDiv = () => {
         showDiv.current.style.bottom = 0
     }
+    const handleHide = () => {
+        showDiv.current.style.bottom = "-100%"
+    }
     const handleHideDiv = (e) => {
         e.preventDefault()
         const target = e.target.getAttribute('href')
-        console.log(target)
 
         const location = document.querySelector(target).offsetTop
-
-        console.log(location)
 
         window.scrollTo({
             left: 0,
@@ -71,7 +71,7 @@ function Header() {
                             </a>
                         </li>
                     </ul>
-                    <FaTimes onClick={handleHideDiv} className="nav__close nav__icon" size={"1.2rem"} />
+                    <FaTimes onClick={handleHide} className="nav__close nav__icon" size={"1.2rem"} />
                 </div>
                 <div className="nav__btns">
                     <div className="nav__toggle">
