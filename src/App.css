@@ -304,6 +304,18 @@ img {
     width: 100%;
     height: 100vh;
 }
+.skills{
+    width: 60%;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.li{
+    display: flex;
+    color: black;
+}
 
 /*==================== QUALIFICATION ====================*/
 
@@ -354,6 +366,9 @@ img {
     /* .nav__menu {
         padding: 2rem .25rem 4rem;
     } */
+    .skills{
+        flex-direction: column;
+    }
     .socialIcon{
         width: 300px;
         margin-top: 25px;
@@ -387,6 +402,9 @@ img {
         text-align: center;
         margin-top: 10px;
     }
+    .divSkill{
+        margin-top: 50px;
+    }
 }
 
 /* For medium devices */
@@ -417,6 +435,12 @@ img {
     }
     body {
         margin: 0;
+    }
+    .skills{
+        flex-direction: row;
+    }
+    .divSkill{
+        margin-top: 0px;
     }
     /* .section {
         padding: 0 0 2rem;

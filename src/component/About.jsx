@@ -17,7 +17,7 @@ function About() {
                     into technical solutions. Looking to start my career as an entry-level
                     software engineer with a reputed firm driven by technology.</p>
             </div>
-            <a href={Resume} style={{ width:"200px",margin:"auto",padding:"5px",borderRadius:"6px",backgroundColor:"#50DBB4"}} className="nav__link" download rel="noreferrer" target="_blank">
+            <a href={Resume} style={{ width:"200px",margin:"auto",padding:"5px",borderRadius:"6px",backgroundColor:"hsl(353deg, 50%, 90%)"}} className="nav__link" download rel="noreferrer" target="_blank">
                 <FcDownload  size={"1.2rem"} />
                 Resume
             </a>

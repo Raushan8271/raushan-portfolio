@@ -27,9 +27,9 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
-      <section id="footer">
+      {/* <section id="footer">
         <Footer />
-      </section>
+      </section> */}
     </>
   );
 }
