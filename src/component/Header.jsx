@@ -20,7 +20,7 @@ function Header() {
 
         window.scrollTo({
             left: 0,
-            top: location - 50
+            top: location -30
         })
 
         showDiv.current.style.bottom = "-100%"
