@@ -304,7 +304,8 @@ img {
     width: 100%;
     height: 100vh;
 }
-.skills{
+
+.skills {
     width: 60%;
     margin: auto;
     margin-top: 10vh;
@@ -312,7 +313,8 @@ img {
     justify-content: space-between;
     /* align-items: center; */
 }
-.li{
+
+.li {
     display: flex;
     color: black;
 }
@@ -328,6 +330,47 @@ img {
 .project {
     width: 100%;
     height: 100vh;
+}
+
+.projectdiv {
+    padding-top: 25px;
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.proFirstDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgDiv {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid hsl(353deg, 50%, 90%);
+    border-radius: 6px;
+}
+
+.imgDiv:hover {
+    box-shadow: 2px 2px 2px 2px hsl(353deg, 50%, 85%);
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnbtn {
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: hsl(353deg, 50%, 90%);
+    border-color: hsl(353deg, 50%, 85%);
+    outline: none;
+    cursor: pointer;
 }
 
 /*==================== Footer ====================*/
@@ -366,10 +409,17 @@ img {
     /* .nav__menu {
         padding: 2rem .25rem 4rem;
     } */
-    .skills{
+    .imgDiv{
+        min-width: 300px;
+        margin: 10px;
+    }
+    .proFirstDiv{
         flex-direction: column;
     }
-    .socialIcon{
+    .skills {
+        flex-direction: column;
+    }
+    .socialIcon {
         width: 300px;
         margin-top: 25px;
         display: flex;
@@ -402,7 +452,7 @@ img {
         text-align: center;
         margin-top: 10px;
     }
-    .divSkill{
+    .divSkill {
         margin-top: 50px;
     }
 }
@@ -436,11 +486,14 @@ img {
     body {
         margin: 0;
     }
-    .skills{
+    .skills {
         flex-direction: row;
     }
-    .divSkill{
+    .divSkill {
         margin-top: 0px;
+    }
+    .proFirstDiv{
+        flex-direction: row;
     }
     /* .section {
         padding: 0 0 2rem;
