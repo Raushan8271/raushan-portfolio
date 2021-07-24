@@ -413,6 +413,9 @@ img {
         min-width: 300px;
         margin: 10px;
     }
+    .btnbtn{
+        width: 120px;
+    }
     .proFirstDiv{
         flex-direction: column;
     }
@@ -485,6 +488,9 @@ img {
     }
     body {
         margin: 0;
+    }
+    .btnbtn{
+        width: 200px;
     }
     .skills {
         flex-direction: row;
