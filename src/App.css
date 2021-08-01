@@ -330,12 +330,11 @@ img {
     height: 100vh;
 }
 
-.projectdiv {
-    width: 90%;
-    min-width: 510px;
+/* .projectdiv {
+    width: 100%;
     margin: auto;
     cursor: pointer;
-}
+} */
 
 .rec-arrow-right {
     background-color: #03203C;
@@ -514,6 +513,7 @@ background-color: #21405e;
     .projectdiv {
         width: 100%;
         margin: auto;
+        min-width: 350px;
         cursor: pointer;
     }
 }
