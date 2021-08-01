@@ -12,7 +12,7 @@ export default class Project extends Component {
                 <div className="projectdiv">
                     <Carousel itemsToShow={1}>
                         <div className="imgDiv">
-                            <img style={{ borderRadius: "10px" }} src={jiomart} alt="jiomart" />
+                            <img style={{width:"80%"}} style={{ borderRadius: "10px" }} src={jiomart} alt="jiomart" />
                             <div>
                                 <h4 style={{ textAlign: "center" }}>Tech Stacks</h4>
                                 <div className="techdiv">
