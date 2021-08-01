@@ -408,7 +408,7 @@ img {
     } */
     .profilImage{
         width: 20%;
-        min-width: 120px;
+        min-width: 160px;
         margin: auto;
         border-radius: 10px;
         box-shadow: 0px 0px 5px 0px #03203c
