@@ -20,7 +20,7 @@ function Header() {
 
         window.scrollTo({
             left: 0,
-            top: location -30
+            top: location - 20
         })
 
         showDiv.current.style.bottom = "-100%"
@@ -29,7 +29,7 @@ function Header() {
         <header className="header">
             <nav className="nav container">
                 <a href="#home" className="nav__logo" onClick={handleHideDiv} >
-                    Raushan Kumar
+                    𝓡𝓐𝓤𝓢𝓗𝓐𝓝 𝓚𝓤𝓜𝓐𝓡
                 </a>
                 <div ref={showDiv} className="nav__menu">
                     <ul className="nav__list grid">
