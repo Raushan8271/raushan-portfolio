@@ -326,14 +326,18 @@ img {
 
 .project {
     width: 100%;
+    padding: 30px;
     height: 100vh;
 }
 
-.projectdiv {
-    padding-top: 25px;
-    display: flex;
-    width: 85%;
-    margin: auto;
+/* .projectdiv {
+    width: 70%;
+    margin: 3% auto;
+    cursor: pointer;
+} */
+
+.rec-arrow-right {
+    background-color: #03203C;
 }
 
 .proFirstDiv {
@@ -345,12 +349,12 @@ img {
 .imgDiv {
     width: 45%;
     padding: 20px;
-    border: 1px solid hsl(353deg, 50%, 90%);
+    border: 1px solid #03203C;
     border-radius: 6px;
 }
 
 .imgDiv:hover {
-    box-shadow: 2px 2px 2px 2px hsl(353deg, 50%, 85%);
+    box-shadow: 0px 0px 5px 0px #03203c
 }
 
 .btnDiv {
@@ -363,11 +367,38 @@ img {
     width: 200px;
     margin: auto;
     padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
     border-radius: 6px;
-    background-color: hsl(353deg, 50%, 90%);
+    background-color: #03203C;
     border-color: hsl(353deg, 50%, 85%);
     outline: none;
     cursor: pointer;
+}
+.btnbtn:hover{
+background-color: #21405e;
+}
+.slick-arrow {
+    background-color: #03203C;
+}
+
+.techlogo {
+    width: 50px;
+    /* height: 40px; */
+    transition: transform .2s;
+}
+
+.techlogo:hover {
+    transform: scale(1.3); 
+}
+
+.techdiv {
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*==================== Footer ====================*/
@@ -406,14 +437,14 @@ img {
     /* .nav__menu {
         padding: 2rem .25rem 4rem;
     } */
-    .profilImage{
+    .profilImage {
         width: 20%;
         min-width: 150px;
         margin: auto;
         border-radius: 10px;
         box-shadow: 0px 0px 5px 0px #03203c
     }
-    .aboutDiv{
+    .aboutDiv {
         margin-top: 25px;
         display: flex;
         flex-direction: column;
@@ -422,12 +453,12 @@ img {
         height: auto;
         min-height: 500px;
     }
-    .imgdiv{
+    .imgdiv {
         width: 30%;
         min-width: 150px;
         margin: auto;
     }
-    .desdiv{
+    .desdiv {
         width: 100%;
         margin: auto;
     }
@@ -435,7 +466,7 @@ img {
         padding-top: 20px;
     }
     .imgDiv {
-        min-width: 300px;
+        min-width: 350px;
         margin: 10px;
     }
     .btnbtn {
@@ -479,6 +510,11 @@ img {
     .skill {
         padding: 15px;
     }
+    .projectdiv {
+        width: 100%;
+        margin: auto;
+        cursor: pointer;
+    }
 }
 
 /* For medium devices */
@@ -493,6 +529,11 @@ img {
     .home__data {
         grid-column: initial;
     }
+    .imgDiv {
+        width: 100%;
+        max-width: 450px;
+        margin: 10px;
+    }
     /* .home__img {
         order: 1;
         justify-self: center;
@@ -500,6 +541,11 @@ img {
     /* .home__description {
         font-size: 15px;
     } */
+    .projectdiv {
+        width: 100%;
+        margin: auto;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -563,21 +609,32 @@ img {
     .about {
         padding-top: 30px;
     }
-    .aboutDiv{
+    .aboutDiv {
         flex-direction: row;
     }
-    .imgdiv{
+    .imgdiv {
         width: 30%;
     }
-    .profilImage{
+    .profilImage {
         width: 70%;
     }
-    .desdiv{
+    .desdiv {
         width: 70%;
         margin: auto;
     }
     .skill {
         padding: 30px;
+    }
+    .imgDiv {
+        width: 100%;
+        max-width: 650px;
+        margin: 10px;
+    }
+    .projectdiv {
+        width: 70%;
+        min-width: 600px;
+        margin: auto;
+        cursor: pointer;
     }
 }
 
