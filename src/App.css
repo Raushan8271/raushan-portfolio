@@ -241,10 +241,7 @@ img {
     background-image: url(./files/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-  
-    
 }
-
 
 .home__container {
     gap: 1rem;
@@ -302,8 +299,8 @@ img {
 /*==================== ABOUT ====================*/
 
 .about {
-    margin-top: 10px;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 100vh;
 }
 
@@ -312,15 +309,6 @@ img {
 .skill {
     width: 100%;
     height: 100vh;
-}
-
-.skills {
-    width: 60%;
-    margin: auto;
-    margin-top: 10vh;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
 }
 
 .li {
@@ -418,17 +406,41 @@ img {
     /* .nav__menu {
         padding: 2rem .25rem 4rem;
     } */
-    .imgDiv{
+    .profilImage{
+        width: 20%;
+        min-width: 120px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 0px #03203c
+    }
+    .aboutDiv{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        min-height: 500px;
+    }
+    .imgdiv{
+        width: 30%;
+        margin: auto;
+    }
+    .desdiv{
+        width: 100%;
+        margin: auto;
+    }
+    .about {
+        padding-top: 20px;
+    }
+    .imgDiv {
         min-width: 300px;
         margin: 10px;
     }
-    .btnbtn{
+    .btnbtn {
         width: 120px;
     }
-    .proFirstDiv{
-        flex-direction: column;
-    }
-    .skills {
+    .proFirstDiv {
         flex-direction: column;
     }
     .socialIcon {
@@ -463,8 +475,8 @@ img {
         text-align: center;
         margin-top: 10px;
     }
-    .divSkill {
-        margin-top: 50px;
+    .skill {
+        padding: 15px;
     }
 }
 
@@ -497,16 +509,10 @@ img {
     body {
         margin: 0;
     }
-    .btnbtn{
+    .btnbtn {
         width: 200px;
     }
-    .skills {
-        flex-direction: row;
-    }
-    .divSkill {
-        margin-top: 0px;
-    }
-    .proFirstDiv{
+    .proFirstDiv {
         flex-direction: row;
     }
     /* .section {
@@ -552,6 +558,25 @@ img {
     h1 {
         text-align: center;
         padding-top: 25px;
+    }
+    .about {
+        padding-top: 30px;
+    }
+    .aboutDiv{
+        flex-direction: row;
+    }
+    .imgdiv{
+        width: 30%;
+    }
+    .profilImage{
+        width: 70%;
+    }
+    .desdiv{
+        width: 70%;
+        margin: auto;
+    }
+    .skill {
+        padding: 30px;
     }
 }
 
