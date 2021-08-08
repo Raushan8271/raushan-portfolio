@@ -1,19 +1,10 @@
 ### Hi there 👋, my name is Raushan Kumar
 #### Full Stack Web Developer
-![Full Stack Web Developer](https://opportunitiesforyoungkenyans.co.ke/wp-content/uploads/2020/07/Full-Stack-Developer.jpg-full-stack-developer.jpg)
-
 Software professional, strong in design and integration with intuitive problem-solving skills. Proficient in HTML, CSS, React.JS, and hands-on practice of more than 200 DSA questions. Passionate about implementing and learning new things, with the ability to translate business requirements into technical solutions. Looking to start my career as an entry-level software engineer with a reputed firm driven by technology.
 
 🛠 Skills 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/html5.svg' alt='html5' height='40'>](HTML)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/css3.svg' alt='css3' height='40'>](CSS)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/javascript.svg' alt='javascript' height='40'>](javascript)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/react.svg' alt='react' height='40'>](react)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/redux.svg' alt='redux' height='40'>](redux)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/node-dot-js.svg' alt='node-dot-js' height='40'>](node)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/mongodb.svg' alt='mongodb' height='40'>](mongodb)  
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Raushan8271)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Raushan8271&show_icons=true&count_private=true)  
-
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=Raushan8271)  
-
 
 You can connect with me here!
 
