@@ -55,7 +55,7 @@ export default class Project extends Component {
                             </div>
                             <div className="btnDiv">
                                 <a href="https://github.com/Raushan8271/cricinfo/" rel="noreferrer" target="_blank"><button className="btnbtn">Source Code</button></a>
-                                <a href="https://raushan8271.github.io/cricinfo/" rel="noreferrer" target="_blank"><button className="btnbtn">Demo</button></a>
+                                <a href="https://cricinfo.vercel.app/" rel="noreferrer" target="_blank"><button className="btnbtn">Demo</button></a>
                             </div>
                             
                         </div>
